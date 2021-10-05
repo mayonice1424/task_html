@@ -19,6 +19,7 @@ nav{
     color:white;
     padding:0px 20px;
 }
+
 .header-logo{
     font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -44,7 +45,6 @@ hr{
 .gambar{
     margin-top: 50px;
     height: 400px;
-
     padding: 0px 50px 5px 150px;
 }
 main{
@@ -118,6 +118,11 @@ tbody{
 
 tbody tr:hover{
     text-align: center;
+    background-color: rgb(97, 86, 86);
+}
+
+tbody td:hover{
+    text-align: left;
     background-color: rgb(97, 86, 86);
 }
 
