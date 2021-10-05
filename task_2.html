@@ -10,24 +10,82 @@
             <hr>
             <hc>
             <div class="header-logo">My Notes</div>
-            <div class="header-list">
+            <nav>
                 <ul>
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
-            </div>
+            </nav>   
         </div>   
         <hr>
         <main>
-            <p>Welcome to My Notes</p>
-            <img class="gambar" src="C:\xampp\htdocs\task_html\Assets\gambar.png" alt="Illustrasi Gambar">
-            
+            <h1>Welcome to My Notes</h1>
+            <img class="gambar" src="C:\xampp\htdocs\task_html\Assets\Illustrasi mobile.png" alt="Illustrasi Gambar">
+            <div class="container">
+            <form action="./detail_information_registration.html" method="POST">
+                <center>Sign Up</center>
+                <table>
+                <tr>
+                    <td>
+                        <label for="Email">
+                            Email 
+                        </label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="email" name="Email" required>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <label for="password">
+                            Password 
+                        </label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <label for="birthday">
+                        Date of birth
+                    </label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="first notes">
+                        First Notes
+                    </label>
+                </td>
+                <td>
+                    :
+                </td>
+                <td>
+                    <textarea type="textarea" required></textarea>
+                </td>
+                </tr>
+                </table>
+               <center>
+                <button id=Submit type="submit" formaction="./detail_information_registration.html">Create Account</button>
+            </center>
+            </form>
+        </div>
         </main>
-
-    
-        <footer>
-
-        </footer>
     </body>
 </html>
