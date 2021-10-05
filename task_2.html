@@ -23,7 +23,7 @@
             <h1>Welcome to My Notes</h1>
             <img class="gambar" src="C:\xampp\htdocs\task_html\Assets\Illustrasi mobile.png" alt="Illustrasi Gambar">
             <div class="container">
-            <form action="./detail_information_registration.html" method="POST">
+            <form action="./detail_information_registration.html" method="GET">
                 <center>Sign Up</center>
                 <table>
                 <tr>
@@ -36,7 +36,20 @@
                         :
                     </td>
                     <td>
-                        <input type="email" name="Email" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Name">
+                            Username 
+                        </label>
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="Name" name="Name" placeholder="Name" required>
                     </td>
                 </tr>
                 <br>
@@ -50,7 +63,7 @@
                         :
                     </td>
                     <td>
-                        <input type="password" name="password" required>
+                        <input type="password" name="password" placeholder="Name" required>
                     </td>
                 </tr>
                 <br>
